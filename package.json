@@ -13,13 +13,15 @@
     "eslint-plugin-flowtype": "^2.30.3",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-plugin-react": "^6.10.0",
+    "node-sass": "^3.11.2"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/.eslintrc"
   },
   "scripts": {
     "start": "react-scripts start",
+    "style": "node-sass -o css scss",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
