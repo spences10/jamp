@@ -1,0 +1,33 @@
+//colors
+$color_log_cabin_approx: #222;
+$white: white;
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.app-header {
+  background-color: $color_log_cabin_approx;
+  height: 150px;
+  padding: 20px;
+  color: $white;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+@keyframes app-logo-spin {
+  from {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotate(0deg);
+  }
+  to {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotate(360deg);
+  }
+}
