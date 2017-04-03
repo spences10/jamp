@@ -1,13 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit|Orbitron);
 body {
   margin: 4%;
   min-width: 345px;
   font-size: 16px;
+  font-family: "Kanit", sans-serif;
+  font-weight: normal;
   background: whitesmoke;
   color: grey; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Orbitron", serif;
+  font-weight: normal; }
 
 .textContainer {
   line-height: 1.75em; }
   .textContainer .appHeading {
+    font: "Orbitron", serif;
     color: #67bacf;
     text-shadow: 0.02em 0.01em grey; }
   .textContainer textarea {
