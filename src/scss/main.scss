@@ -30,17 +30,13 @@ h2, h3, h4, h5, h6 {
   .appHeading {
     color: #67bacf;
   }
-  textarea {
+  textarea, .rendered {
     height: 45vh;
     width: 85vw;
     min-height: 12em;
     padding: 0.25em;
     border: 1px solid grey;
     color: grey;
-  }
-  .rendered {
-    border: thin;
-    border: 1px solid black;
   }
 }
 
@@ -49,6 +45,6 @@ h2, h3, h4, h5, h6 {
   .renderedMarkdown {
     margin-top: 4em;
     border: thin;
-    border: 1px solid black;
+    border: 1px solid grey;
   }
 }

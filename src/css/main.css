@@ -21,19 +21,16 @@ h2, h3, h4, h5, h6 {
   line-height: 1.75em; }
   .textContainer .appHeading {
     color: #67bacf; }
-  .textContainer textarea {
+  .textContainer textarea, .textContainer .rendered {
     height: 45vh;
     width: 85vw;
     min-height: 12em;
     padding: 0.25em;
     border: 1px solid grey;
     color: grey; }
-  .textContainer .rendered {
-    border: thin;
-    border: 1px solid black; }
 
 @media (max-width: 768px) {
   .renderedMarkdown {
     margin-top: 4em;
     border: thin;
-    border: 1px solid black; } }
+    border: 1px solid grey; } }
