@@ -1,5 +1,6 @@
 import React from 'react'
 import Marked from 'marked'
+// import Typist from 'react-typist'
 
 class Markdown extends React.Component {
   constructor() {

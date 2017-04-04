@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   .textContainer .appHeading {
     font: "Orbitron", serif;
     color: #67bacf;
-    text-shadow: 0.02em 0.01em grey; }
+    text-shadow: 0.02em 0.01em black; }
   .textContainer textarea {
     height: 100%;
     width: 95%;
