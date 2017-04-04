@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "marked": "^0.3.6",
+    "now-serve": "^0.5.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-typist": "^1.1.0"
@@ -23,9 +24,9 @@
   },
   "scripts": {
     "start": "node-sass -o ./src/css ./src/scss | react-scripts start",
-    "style": "node-sass -o ./src/css ./src/scss",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "s": "node-sass -o ./src/css ./src/scss",
+    "b": "react-scripts build",
+    "t": "react-scripts test --env=jsdom",
+    "e": "react-scripts eject"
   }
 }

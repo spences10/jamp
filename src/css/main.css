@@ -2,7 +2,7 @@
 body {
   margin: 4%;
   min-width: 345px;
-  font-size: 5vw;
+  font-size: 1vw;
   font-family: "Kanit", sans-serif;
   font-weight: normal;
   background: whitesmoke;
@@ -10,7 +10,7 @@ body {
 
 h1 {
   font-family: "Orbitron", serif;
-  font-size: 10vw;
+  font-size: 1vw;
   text-shadow: 0.05em 0.05em black; }
 
 h2, h3, h4, h5, h6 {
@@ -22,14 +22,14 @@ h2, h3, h4, h5, h6 {
   .textContainer .appHeading {
     color: #67bacf; }
   .textContainer textarea, .textContainer .rendered {
-    height: 45vh;
-    width: 85vw;
+    height: 30vh;
+    width: 55vw;
     min-height: 12em;
     padding: 0.25em;
     border: 1px solid grey;
     color: grey; }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .renderedMarkdown {
     margin-top: 4em;
     border: thin;
