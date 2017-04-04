@@ -1,7 +1,7 @@
 import React from 'react'
 import Marked from 'marked'
 // import Typist from 'react-typist'
-
+ 
 class Markdown extends React.Component {
   constructor() {
     super()
@@ -20,25 +20,26 @@ class Markdown extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="textContainer">
         <div className="row">
           <div className="col-md-6">
-            <h2 className="appHeading">Markdown notiation</h2>
+            <h1 className="appHeading">Markdown notiation</h1>
             <textarea
               className="editor"
-              rows="25"
-              cols="50"
+              rows="15"
+              cols="25"
               value={this.state.defaultText}
               onChange={this.onChange.bind(this)}
             />
           </div>
-          <divcol-md-6 renderedMarkdown>
-            <h2 className="appHeading">Rendered Markdown</h2>
+          <div className="col-md-6" renderedMarkdown>
+            <h1 className="appHeading">Rendered Markdown</h1>
             <div
+              className="rendered"
               contentEditable="true"
               dangerouslySetInnerHTML={this.makeMarkup(this.state.defaultText)}
             />
-          </divcol-md-6>
+          </div>
         </div>
       </div>
     )

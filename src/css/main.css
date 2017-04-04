@@ -2,30 +2,38 @@
 body {
   margin: 4%;
   min-width: 345px;
-  font-size: 16px;
+  font-size: 5vw;
   font-family: "Kanit", sans-serif;
   font-weight: normal;
   background: whitesmoke;
   color: grey; }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: "Orbitron", serif;
+  font-size: 10vw;
+  text-shadow: 0.05em 0.05em black; }
+
+h2, h3, h4, h5, h6 {
+  font-family: "Kanit", sans-serif;
   font-weight: normal; }
 
 .textContainer {
   line-height: 1.75em; }
   .textContainer .appHeading {
-    font: "Orbitron", serif;
-    color: #67bacf;
-    text-shadow: 0.02em 0.01em black; }
+    color: #67bacf; }
   .textContainer textarea {
-    height: 100%;
-    width: 95%;
+    height: 45vh;
+    width: 85vw;
     min-height: 12em;
     padding: 0.25em;
     border: 1px solid grey;
     color: grey; }
+  .textContainer .rendered {
+    border: thin;
+    border: 1px solid black; }
 
 @media (max-width: 768px) {
   .renderedMarkdown {
-    margin-top: 4em; } }
+    margin-top: 4em;
+    border: thin;
+    border: 1px solid black; } }
