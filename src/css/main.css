@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Kanit|Orbitron);
 body {
-  margin: 4%;
-  min-width: 345px;
   font-family: "Kanit", sans-serif;
   font-weight: normal;
   background: whitesmoke;
@@ -14,3 +12,6 @@ h1.appHeading {
 h2, h3, h4, h5, h6 {
   font-family: "Kanit", sans-serif;
   font-weight: normal; }
+
+textarea.editor {
+  width: 35vw; }

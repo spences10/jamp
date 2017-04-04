@@ -5,8 +5,6 @@ $orbitron: 'Orbitron', serif;
 $kanit: 'Kanit', sans-serif;
 
 body {
-  margin: 4%;
-  min-width: 345px;
   font-family: $kanit;
   font-weight: normal;
   background: whitesmoke;
@@ -23,3 +21,6 @@ h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+textarea.editor {
+  width: 35vw
+}
