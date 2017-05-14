@@ -4,7 +4,7 @@
 
 A simple markdown previewer in react using the `marked` package.
 
-Demo here: [https://build-aqrhhvtgge.now.sh/](https://build-aqrhhvtgge.now.sh/)
+Demo here: [https://jamp.now.sh/](https://jamp.now.sh/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
