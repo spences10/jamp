@@ -26,6 +26,22 @@
     "s": "node-sass -o ./src/css ./src/scss",
     "b": "react-scripts build",
     "t": "react-scripts test --env=jsdom",
-    "e": "react-scripts eject"
-  }
+    "eject": "react-scripts eject"
+  },
+  "description": "[![Greenkeeper badge](https://badges.greenkeeper.io/spences10/jamp.svg)](https://greenkeeper.io/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spences10/jamp.git"
+  },
+  "keywords": [
+    "markdown",
+    "viewer"
+  ],
+  "author": "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spences10/jamp/issues"
+  },
+  "homepage": "https://github.com/spences10/jamp#readme"
 }
