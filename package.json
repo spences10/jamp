@@ -17,7 +17,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-react": "^7.1.0",
     "node-sass": "^4.5.3",
-    "react-scripts": "1.0.12"
+    "react-scripts": "1.0.13"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/.eslintrc"
