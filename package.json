@@ -6,7 +6,7 @@
     "marked": "^0.3.6",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-typist": "^1.1.1",
+    "react-typist": "^2.0.1",
     "snyk": "1.42.7"
   },
   "devDependencies": {
