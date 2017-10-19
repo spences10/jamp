@@ -16,6 +16,7 @@
     "eslint-plugin-import": "^2.4.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-react": "^7.1.0",
+    "flow-bin": "0.57.3",
     "node-sass": "^4.5.3",
     "react-scripts": "1.0.14"
   },
@@ -23,6 +24,7 @@
     "extends": "./node_modules/react-scripts/.eslintrc"
   },
   "scripts": {
+    "flow": "flow",
     "start": "node-sass -o ./src/css ./src/scss | react-scripts start",
     "s": "node-sass -o ./src/css ./src/scss",
     "b": "react-scripts build",
@@ -32,17 +34,15 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "description": "[![Greenkeeper badge](https://badges.greenkeeper.io/spences10/jamp.svg)](https://greenkeeper.io/)",
+  "description": "Just another markdown previewer",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spences10/jamp.git"
   },
-  "keywords": [
-    "markdown",
-    "viewer"
-  ],
-  "author": "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
+  "keywords": ["markdown", "viewer"],
+  "author":
+    "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/spences10/jamp/issues"
