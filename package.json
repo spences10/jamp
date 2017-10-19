@@ -32,7 +32,7 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "description": "[![Greenkeeper badge](https://badges.greenkeeper.io/spences10/jamp.svg)](https://greenkeeper.io/)",
+  "description": "Just another markdown previewer",
   "main": "index.js",
   "repository": {
     "type": "git",
