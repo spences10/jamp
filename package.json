@@ -16,6 +16,7 @@
     "eslint-plugin-import": "^2.4.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-react": "^7.1.0",
+    "flow-bin": "0.57.3",
     "node-sass": "^4.5.3",
     "react-scripts": "1.0.14"
   },
@@ -23,6 +24,7 @@
     "extends": "./node_modules/react-scripts/.eslintrc"
   },
   "scripts": {
+    "flow": "flow",
     "start": "node-sass -o ./src/css ./src/scss | react-scripts start",
     "s": "node-sass -o ./src/css ./src/scss",
     "b": "react-scripts build",

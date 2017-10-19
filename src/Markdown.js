@@ -1,3 +1,4 @@
+// @flow
 import React from 'react'
 import Marked from 'marked'
 // import Typist from 'react-typist'
