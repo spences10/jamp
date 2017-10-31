@@ -18,7 +18,7 @@
     "eslint-plugin-react": "^7.1.0",
     "flow-bin": "0.57.3",
     "node-sass": "^4.5.3",
-    "react-scripts": "1.0.15"
+    "react-scripts": "1.0.16"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/.eslintrc"
