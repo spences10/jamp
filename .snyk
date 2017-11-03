@@ -35,6 +35,8 @@ patch:
   'npm:marked:20170112':
     - react-scripts > jest > jest-cli > node-notifier > cli-usage > marked:
         patched: '2017-07-06T05:06:06.429Z'
+      marked:
+        patched: '2017-11-03T17:37:26.968Z'
     - cli-usage > marked:
         patched: '2017-07-06T05:06:06.429Z'
     - marked:
@@ -360,3 +362,6 @@ patch:
         patched: '2017-07-06T05:06:06.429Z'
     - engine.io-client > debug > ms:
         patched: '2017-07-06T05:06:06.429Z'
+  'npm:marked:20170907':
+    - marked:
+        patched: '2017-11-03T17:37:26.968Z'
