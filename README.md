@@ -1,6 +1,6 @@
 # Just Another Markdown Previewer
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/spences10/jamp.svg)](https://greenkeeper.io/)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
 A simple markdown previewer in react using the `marked` package.
 
