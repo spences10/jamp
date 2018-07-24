@@ -36,9 +36,11 @@
     "type": "git",
     "url": "git+https://github.com/spences10/jamp.git"
   },
-  "keywords": ["markdown", "viewer"],
-  "author":
-    "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
+  "keywords": [
+    "markdown",
+    "viewer"
+  ],
+  "author": "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/spences10/jamp/issues"
