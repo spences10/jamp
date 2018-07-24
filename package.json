@@ -15,8 +15,6 @@
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
     "eslint-plugin-react": "7.10.0",
-    "flow-bin": "0.71.0",
-    "node-sass": "4.9.2",
     "prettier": "1.13.7",
     "pretty-quick": "1.6.0",
     "react-scripts": "1.1.4"
