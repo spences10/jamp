@@ -1,7 +1,7 @@
 // @flow
 import React, { Component } from 'react'
 import Markdown from './Markdown'
-import '../css/main.css'
+// import '../css/main.css'
 
 class App extends Component {
   render() {

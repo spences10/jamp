@@ -1,15 +1,11 @@
 {
   "name": "jamp",
-  "version": "0.1.0",
+  "version": "1.1.0",
+  "private": true,
   "dependencies": {
     "marked": "0.4.0",
-    "react": "16.4.1",
-    "react-dom": "16.4.1",
-    "react-typist": "2.0.4"
-  },
-  "devDependencies": {
-    "prettier": "1.13.7",
-    "pretty-quick": "1.6.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -35,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/spences10/jamp/issues"
   },
-  "homepage": "https://github.com/spences10/jamp#readme"
+  "homepage": "https://github.com/spences10/jamp#readme",
+  "devDependencies": {
+    "prettier": "1.13.7",
+    "pretty-quick": "1.6.0"
+  }
 }
