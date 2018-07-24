@@ -6,8 +6,7 @@
     "marked": "^0.3.9",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-typist": "^2.0.1",
-    "snyk": "1.76.0"
+    "react-typist": "^2.0.1"
   },
   "devDependencies": {
     "eslint": "^4.1.0",
@@ -29,10 +28,7 @@
     "s": "node-sass -o ./src/css ./src/scss",
     "b": "react-scripts build",
     "t": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "test": "snyk test",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "eject": "react-scripts eject"
   },
   "description": "Just another markdown previewer",
   "main": "index.js",
@@ -47,6 +43,5 @@
   "bugs": {
     "url": "https://github.com/spences10/jamp/issues"
   },
-  "homepage": "https://github.com/spences10/jamp#readme",
-  "snyk": true
+  "homepage": "https://github.com/spences10/jamp#readme"
 }
