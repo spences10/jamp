@@ -1,13 +1,16 @@
-// @flow
 import React from 'react'
 import Marked from 'marked'
-// import Typist from 'react-typist'
+import styled from 'styled-components'
+
+const AppHeading = styled.h1`
+  font-family: poppins;
+`
 
 class Markdown extends React.Component {
   constructor() {
     super()
     this.state = {
-      defaultText: '# hello world'
+      markdownText: '# hello world'
     }
   }
 
@@ -17,28 +20,31 @@ class Markdown extends React.Component {
   }
 
   onChange(e) {
-    this.setState({ defaultText: e.target.value })
+    this.setState({ markdownText: e.target.value })
   }
+
   render() {
     return (
       <div className="textContainer">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="appHeading">Markdown notiation</h1>
+            <AppHeading>Markdown notiation</AppHeading>
             <textarea
               className="editor"
               rows="15"
               cols="25"
-              value={this.state.defaultText}
+              value={this.state.markdownText}
               onChange={this.onChange.bind(this)}
             />
           </div>
           <div className="col-md-6" renderedMarkdown>
-            <h1 className="appHeading">Rendered Markdown</h1>
+            <AppHeading>Rendered Markdown</AppHeading>
             <div
               className="rendered"
               contentEditable="true"
-              dangerouslySetInnerHTML={this.makeMarkup(this.state.defaultText)}
+              dangerouslySetInnerHTML={this.makeMarkup(
+                this.state.markdownText
+              )}
             />
           </div>
         </div>
