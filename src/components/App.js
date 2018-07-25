@@ -1,14 +1,12 @@
-// @flow
 import React, { Component } from 'react'
 import Markdown from './Markdown'
-// import '../css/main.css'
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <React.Fragment>
         <Markdown />
-      </div>
+      </React.Fragment>
     )
   }
 }
