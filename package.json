@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "private": true,
   "dependencies": {
+    "markdown-to-jsx": "6.6.9",
     "marked": "0.4.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
