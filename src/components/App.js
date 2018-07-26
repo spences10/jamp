@@ -4,6 +4,8 @@ import Markdown from 'markdown-to-jsx'
 class App extends Component {
   state = { markdown: '# yo!' }
 
+  updateState = e => this.setState({ markdown: e.target.value })
+
   render() {
     return (
       <React.Fragment>
