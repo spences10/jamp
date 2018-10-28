@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import Markdown from './Markdown'
+import { ThemeProvider } from 'styled-components'
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <ThemeProvider theme={{ fontFamily: 'Helvetica Neue' }}>
         <Markdown />
-      </React.Fragment>
+      </ThemeProvider>
     )
   }
 }
