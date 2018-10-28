@@ -2,6 +2,8 @@ import React from 'react'
 import Marked from 'marked'
 import styled from 'styled-components'
 
+import { GlobalStyle } from '../components/theme/globalStyle'
+
 const AppHeading = styled.h1`
   font-family: poppins;
 `
@@ -26,6 +28,7 @@ class Markdown extends React.Component {
   render() {
     return (
       <div className="textContainer">
+        <GlobalStyle />
         <div className="row">
           <div className="col-md-6">
             <AppHeading>Markdown notiation</AppHeading>
