@@ -2,7 +2,7 @@ import React from 'react'
 import Marked from 'marked'
 import styled from 'styled-components'
 
-import { GlobalStyle } from '../components/theme/globalStyle'
+import { GlobalStyle } from '../theme/globalStyle'
 
 const AppHeading = styled.h1`
   font-family: poppins;
