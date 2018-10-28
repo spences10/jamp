@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "reviewers": [
+    "spences10"
+  ],
+  "bumpVersion": "patch",
+  "baseBranches": [
+    "patch"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  }
+}
