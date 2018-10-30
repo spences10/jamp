@@ -1,13 +1,13 @@
 {
   "name": "jamp",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "dependencies": {
     "marked": "0.5.1",
     "react": "16.6.0",
     "react-dom": "16.6.0",
     "react-scripts": "2.0.5",
-    "styled-components": "4.0.2"
+    "styled-components": "4.0.3"
   },
   "devDependencies": {
     "prettier": "1.14.3",
