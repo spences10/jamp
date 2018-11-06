@@ -8,6 +8,11 @@ const AppHeading = styled.h1`
   font-family: poppins;
 `
 
+const Wrapper = styled.div`
+  margin: 1rem auto;
+  padding: 1rem;
+`
+
 class Markdown extends React.Component {
   constructor() {
     super()
@@ -27,7 +32,7 @@ class Markdown extends React.Component {
 
   render() {
     return (
-      <div className="textContainer">
+      <Wrapper>
         <GlobalStyle />
         <div className="row">
           <div className="col-md-6">
@@ -51,7 +56,7 @@ class Markdown extends React.Component {
             />
           </div>
         </div>
-      </div>
+      </Wrapper>
     )
   }
 }
