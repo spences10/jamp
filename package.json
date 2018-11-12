@@ -1,6 +1,6 @@
 {
   "name": "jamp",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "private": true,
   "dependencies": {
     "babel-plugin-styled-components": "1.8.0",
@@ -8,7 +8,7 @@
     "react": "16.6.1",
     "react-dom": "16.6.1",
     "react-scripts": "2.1.1",
-    "styled-components": "4.0.3"
+    "styled-components": "4.1.0"
   },
   "devDependencies": {
     "prettier": "1.15.2",
