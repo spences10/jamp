@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "prettier": "1.16.0",
-    "pretty-quick": "1.10.0"
+    "pretty-quick": "1.10.0",
+    "serve": "^10.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,7 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "pretty-quick",
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "serve": "serve -s build"
   },
   "description": "Just another markdown previewer",
   "eslintConfig": {
@@ -45,5 +47,5 @@
   "bugs": {
     "url": "https://github.com/spences10/jamp/issues"
   },
-  "homepage": "https://github.com/spences10/jamp#readme"
+  "homepage": "https://jamp.scottspence.me/"
 }
