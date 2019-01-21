@@ -1,18 +1,18 @@
 {
   "name": "jamp",
-  "version": "1.2.16",
+  "version": "1.2.26",
   "private": true,
   "dependencies": {
-    "babel-plugin-styled-components": "1.9.4",
-    "marked": "0.5.2",
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
-    "react-scripts": "2.1.1",
-    "styled-components": "4.1.2"
+    "babel-plugin-styled-components": "1.10.0",
+    "marked": "0.6.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-scripts": "2.1.3",
+    "styled-components": "4.1.3"
   },
   "devDependencies": {
-    "prettier": "1.15.3",
-    "pretty-quick": "1.8.0"
+    "prettier": "1.16.0",
+    "pretty-quick": "1.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
