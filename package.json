@@ -1,6 +1,6 @@
 {
   "name": "jamp",
-  "version": "1.2.88",
+  "version": "1.2.89",
   "private": true,
   "dependencies": {
     "babel-plugin-styled-components": "1.10.6",
@@ -13,7 +13,7 @@
   "devDependencies": {
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
-    "serve": "11.2.0"
+    "serve": "11.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
