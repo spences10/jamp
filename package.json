@@ -1,12 +1,12 @@
 {
   "name": "jamp",
-  "version": "1.2.92",
+  "version": "1.2.93",
   "private": true,
   "dependencies": {
     "babel-plugin-styled-components": "1.10.7",
     "marked": "0.8.0",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
     "react-scripts": "3.4.0",
     "styled-components": "4.4.1"
   },
