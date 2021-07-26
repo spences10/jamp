@@ -13,7 +13,7 @@
   "devDependencies": {
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1",
-    "serve": "11.3.0"
+    "serve": "11.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
