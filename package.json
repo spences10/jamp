@@ -3,7 +3,7 @@
   "version": "1.2.94",
   "private": true,
   "dependencies": {
-    "babel-plugin-styled-components": "1.10.7",
+    "babel-plugin-styled-components": "1.13.2",
     "marked": "1.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
