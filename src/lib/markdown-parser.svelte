@@ -14,7 +14,9 @@
     class="border rounded-xl h-full bg-base-200 border-base-100 text-xl w-full p-2 resize-none "
   />
 
-  <div class="bg-neutral border border-neutral rounded-xl w-full p-2">
+  <div
+    class="bg-neutral text-neutral-content border border-neutral rounded-xl w-full p-2"
+  >
     {@html markdown}
   </div>
 </div>
