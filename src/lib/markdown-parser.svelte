@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="mx-auto w-10/12 h-screen mb-10 grid p-10 gap-4 prose prose-lg md:gap-10 md:grid-cols-2 md:grid-rows-1"
+  class="mx-auto w-10/12 h-[70vh] mb-10 grid p-10 gap-4 prose prose-lg md:gap-10 md:grid-cols-2 md:grid-rows-1"
 >
   <textarea
     {rows}
