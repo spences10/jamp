@@ -2,14 +2,11 @@
   class="p-10 footer bg-base-200 text-base-content footer-center"
 >
   <div class="grid grid-flow-col gap-4">
-    <a class="link link-hover">About us</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
-    <a class="link link-hover">Press kit</a>
+    <a href="/about" class="link link-hover">About</a>
   </div>
   <div>
     <div class="grid grid-flow-col gap-4">
-      <a>
+      <a href="https://twitter.com/spences10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -22,7 +19,7 @@
           />
         </svg>
       </a>
-      <a>
+      <a href="https://ss10.dev/yt">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -35,24 +32,12 @@
           />
         </svg>
       </a>
-      <a>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          class="fill-current"
-        >
-          <path
-            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
-          />
-        </svg>
-      </a>
     </div>
   </div>
   <div>
     <p>
-      Copyright © 2021 - All right reserved by ACME Industries Ltd
+      Copyright &copy; {`${new Date().getFullYear()}`} - All right reserved
+      by JAMP Industries Ltd
     </p>
   </div>
 </footer>
