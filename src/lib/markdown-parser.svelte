@@ -1,5 +1,5 @@
 <script>
-  import marked from 'marked'
+  import { marked } from 'marked'
   export let markdownContent = `# Hello World\n\nWrite markdown here\n\n`
   export let rows = 5
   $: markdown = marked(markdownContent)
