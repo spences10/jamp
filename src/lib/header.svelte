@@ -1,7 +1,7 @@
 <script>
-import ThemeSelect from "./theme-select.svelte";
-
+  import ThemeSelect from './theme-select.svelte'
 </script>
+
 <div
   class="bg-neutral shadow-lg text-neutral-content mb-2 top-0 z-10 navbar sticky"
 >
@@ -17,6 +17,6 @@ import ThemeSelect from "./theme-select.svelte";
     </div>
   </div>
   <div class="navbar-end">
-    <ThemeSelect/>
+    <ThemeSelect />
   </div>
 </div>
