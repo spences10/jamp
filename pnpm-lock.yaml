@@ -7,7 +7,7 @@ specifiers:
   autoprefixer: 10.4.8
   cssnano: 5.1.12
   daisyui: 2.24.0
-  marked: 4.0.18
+  marked: 4.0.19
   postcss: 8.4.16
   postcss-load-config: 4.0.1
   prettier: 2.7.1
@@ -20,7 +20,7 @@ specifiers:
 
 dependencies:
   daisyui: 2.24.0_25hquoklqeoqwmt7fwvvcyxm5e
-  marked: 4.0.18
+  marked: 4.0.19
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.67
@@ -1102,8 +1102,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /marked/4.0.18:
-    resolution: {integrity: sha512-wbLDJ7Zh0sqA0Vdg6aqlbT+yPxqLblpAZh1mK2+AO2twQkPywvvqQNfEPVwSSRjZ7dZcdeVBIAgiO7MMp3Dszw==}
+  /marked/4.0.19:
+    resolution: {integrity: sha512-rgQF/OxOiLcvgUAj1Q1tAf4Bgxn5h5JZTp04Fx4XUkVhs7B+7YA9JEWJhJpoO8eJt8MkZMwqLCNeNqj1bCREZQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: false
