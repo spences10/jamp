@@ -6,7 +6,7 @@ specifiers:
   '@tailwindcss/typography': 0.5.7
   autoprefixer: 10.4.12
   cssnano: 5.1.13
-  daisyui: 2.29.0
+  daisyui: 2.31.0
   marked: 4.1.0
   postcss: 8.4.16
   postcss-load-config: 4.0.1
@@ -19,7 +19,7 @@ specifiers:
   vite: 3.1.3
 
 dependencies:
-  daisyui: 2.29.0_jhfe3rbur6kzimvcehnoniy6fy
+  daisyui: 2.31.0_jhfe3rbur6kzimvcehnoniy6fy
   marked: 4.1.0
 
 devDependencies:
@@ -537,8 +537,8 @@ packages:
       css-tree: 1.1.3
     dev: true
 
-  /daisyui/2.29.0_jhfe3rbur6kzimvcehnoniy6fy:
-    resolution: {integrity: sha512-7OgVOkK28JhGJPyHT3vvbI8jDHDB6Ofs/kiBbtzyV6I1R1tWXYPzBjxMX5avmdGWteTFraQdEs5B7T1hljtROg==}
+  /daisyui/2.31.0_jhfe3rbur6kzimvcehnoniy6fy:
+    resolution: {integrity: sha512-qepRXgQPLNcJ8ZPZy+dUvsC7mRWvMLRcVMe85/wZA60Tnhm/bkidhOzdllL8aAk2JX+W/xlIsTJ8NZFpPm+eyw==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
