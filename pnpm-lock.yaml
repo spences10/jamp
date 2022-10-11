@@ -11,7 +11,7 @@ specifiers:
   postcss: 8.4.17
   postcss-load-config: 4.0.1
   prettier: 2.7.1
-  prettier-plugin-svelte: 2.7.1
+  prettier-plugin-svelte: 2.8.0
   svelte: 3.50.1
   svelte-preprocess: 4.10.7
   tailwindcss: 3.1.8
@@ -24,14 +24,14 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.77
-  '@sveltejs/kit': 1.0.0-next.511_svelte@3.50.1+vite@3.1.7
+  '@sveltejs/kit': 1.0.0-next.514_svelte@3.50.1+vite@3.1.7
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.8
   autoprefixer: 10.4.12_postcss@8.4.17
   cssnano: 5.1.13_postcss@8.4.17
   postcss: 8.4.17
   postcss-load-config: 4.0.1_postcss@8.4.17
   prettier: 2.7.1
-  prettier-plugin-svelte: 2.7.1_nk6d2fkgcllkkdynqbuearcure
+  prettier-plugin-svelte: 2.8.0_nk6d2fkgcllkkdynqbuearcure
   svelte: 3.50.1
   svelte-preprocess: 4.10.7_ejhwqstqdwfnekvhsm3hus3z4i
   tailwindcss: 3.1.8_postcss@8.4.17
@@ -125,8 +125,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.511_svelte@3.50.1+vite@3.1.7:
-    resolution: {integrity: sha512-A/fxd4qHWDD07Mjo6qEEEfsBEkoj5C4/dPSzx6xPUoWmPvRPhU8t+P0oMc8BOn5YHOhPDq3coH8bmafbh73zKg==}
+  /@sveltejs/kit/1.0.0-next.514_svelte@3.50.1+vite@3.1.7:
+    resolution: {integrity: sha512-1vBKNeLkaQGz/QEQ9bxWwqHwJbBQJTVKReFoFQugGBhiT/Q39Uv+FpXWh+XND9OxMJ947ndqp/EiQj0IAmPwhg==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -1867,8 +1867,8 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  /prettier-plugin-svelte/2.7.1_nk6d2fkgcllkkdynqbuearcure:
-    resolution: {integrity: sha512-H33qjhCBZyd9Zr1A5hUAYDh7j0Mf97uvy7XcA7CP4nNSYrNcPvBUf7wI8K9NptWTIs0S41QtgTWmJIUiGlEBtw==}
+  /prettier-plugin-svelte/2.8.0_nk6d2fkgcllkkdynqbuearcure:
+    resolution: {integrity: sha512-QlXv/U3bUszks3XYDPsk1fsaQC+fo2lshwKbcbO+lrSVdJ+40mB1BfL8OCAk1W9y4pJxpqO/4gqm6NtF3zNGCw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
