@@ -14,7 +14,7 @@ specifiers:
   prettier-plugin-svelte: 2.8.0
   svelte: 3.51.0
   svelte-preprocess: 4.10.7
-  tailwindcss: 3.2.0
+  tailwindcss: 3.2.1
   theme-change: 2.2.0
   vite: 3.1.7
 
@@ -24,8 +24,8 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.80
-  '@sveltejs/kit': 1.0.0-next.519_svelte@3.51.0+vite@3.1.7
-  '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.0
+  '@sveltejs/kit': 1.0.0-next.522_svelte@3.51.0+vite@3.1.7
+  '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.1
   autoprefixer: 10.4.12_postcss@8.4.18
   cssnano: 5.1.13_postcss@8.4.18
   postcss: 8.4.18
@@ -34,7 +34,7 @@ devDependencies:
   prettier-plugin-svelte: 2.8.0_ibge6ami6vq2q2j5g4rcvk62hq
   svelte: 3.51.0
   svelte-preprocess: 4.10.7_kkxqyz6lqha2hfx26r6uvfpxra
-  tailwindcss: 3.2.0_postcss@8.4.18
+  tailwindcss: 3.2.1_postcss@8.4.18
   theme-change: 2.2.0
   vite: 3.1.7
 
@@ -116,8 +116,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.519_svelte@3.51.0+vite@3.1.7:
-    resolution: {integrity: sha512-Hlpee5iOcvfRPNxs641SNohhUGOx4ZQjM+QRJkv0sZpR897XougM7HSgp70eijacb0UbyPrx6inWKm/MZZSeow==}
+  /@sveltejs/kit/1.0.0-next.522_svelte@3.51.0+vite@3.1.7:
+    resolution: {integrity: sha512-dVVrRPbXlAut4vg8kbCeZOjUZnYB7ZvDKp/yAx8InpDF0P1bvUDlc++DXFeMBdXX8bakTA3NGonWnDjqslCsZw==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -167,7 +167,7 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/typography/0.5.7_tailwindcss@3.2.0:
+  /@tailwindcss/typography/0.5.7_tailwindcss@3.2.1:
     resolution: {integrity: sha512-JTTSTrgZfp6Ki4svhPA4mkd9nmQ/j9EfE7SbHJ1cLtthKkpW2OxsFXzSmxbhYbEkfNIyAyhle5p4SYyKRbz/jg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -176,7 +176,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.1_postcss@8.4.18
     dev: true
 
   /@trysound/sax/0.2.0:
@@ -563,7 +563,7 @@ packages:
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.18
       postcss-js: 4.0.0_postcss@8.4.18
-      tailwindcss: 3.2.0_postcss@8.4.18
+      tailwindcss: 3.2.1_postcss@8.4.18
     transitivePeerDependencies:
       - ts-node
     dev: false
@@ -1959,8 +1959,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.2.0_postcss@8.4.18:
-    resolution: {integrity: sha512-ARh/W0uH5UlWIC2nn02V0+5fyF0k6qZliyt4QYic2upOhPUE/Spu1EURNc9txJ3+4j8OEmdigqfDpw4d2tA4vA==}
+  /tailwindcss/3.2.1_postcss@8.4.18:
+    resolution: {integrity: sha512-Uw+GVSxp5CM48krnjHObqoOwlCt5Qo6nw1jlCRwfGy68dSYb/LwS9ZFidYGRiM+w6rMawkZiu1mEMAsHYAfoLg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -1976,6 +1976,7 @@ packages:
       glob-parent: 6.0.2
       is-glob: 4.0.3
       lilconfig: 2.0.6
+      micromatch: 4.0.5
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
