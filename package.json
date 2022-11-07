@@ -27,6 +27,6 @@
   "type": "module",
   "dependencies": {
     "daisyui": "2.38.0",
-    "marked": "4.1.1"
+    "marked": "4.2.2"
   }
 }
