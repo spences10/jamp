@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -9,8 +9,8 @@ dependencies:
     specifier: 3.0.22
     version: 3.0.22(postcss@8.4.24)
   marked:
-    specifier: 5.0.5
-    version: 5.0.5
+    specifier: 5.1.0
+    version: 5.1.0
 
 devDependencies:
   '@sveltejs/adapter-vercel':
@@ -1117,8 +1117,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /marked@5.0.5:
-    resolution: {integrity: sha512-auTmKJTBwZM/GLVFOhmkY7pL8v/0DxiDaXRC2kEyajcNJ0XXn9NphLD0106dbWrbPwcyD4Y0Dus16OkCzUMkfg==}
+  /marked@5.1.0:
+    resolution: {integrity: sha512-z3/nBe7aTI8JDszlYLk7dDVNpngjw0o1ZJtrA9kIfkkHcIF+xH7mO23aISl4WxP83elU+MFROgahqdpd05lMEQ==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: false
