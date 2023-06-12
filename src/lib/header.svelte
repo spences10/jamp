@@ -2,8 +2,6 @@
 	import ThemeSelect from './theme-select.svelte'
 </script>
 
-<!-- need to add home, about, theme switch -->
-
 <div class="navbar bg-base-100">
 	<div class="navbar-start">
 		<div class="dropdown">
