@@ -17,6 +17,7 @@
 		"@playwright/test": "^1.40.1",
 		"@sveltejs/adapter-auto": "^3.0.1",
 		"@sveltejs/kit": "^2.0.6",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/marked": "^5.0.2",
 		"@typescript-eslint/eslint-plugin": "^6.15.0",
