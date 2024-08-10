@@ -19,7 +19,7 @@ devDependencies:
     version: 3.1.1(svelte@4.2.18)(vite@5.3.4)
   '@tailwindcss/typography':
     specifier: ^0.5.13
-    version: 0.5.13(tailwindcss@3.4.6)
+    version: 0.5.13(tailwindcss@3.4.9)
   '@types/marked':
     specifier: ^6.0.0
     version: 6.0.0
@@ -70,7 +70,7 @@ devDependencies:
     version: 6.0.2(postcss-load-config@6.0.1)(postcss@8.4.40)(svelte@4.2.18)(typescript@5.5.4)
   tailwindcss:
     specifier: ^3.4.3
-    version: 3.4.6
+    version: 3.4.9
   theme-change:
     specifier: ^2.5.0
     version: 2.5.0
@@ -389,7 +389,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.2.1
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
@@ -658,7 +658,7 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/typography@0.5.13(tailwindcss@3.4.6):
+  /@tailwindcss/typography@0.5.13(tailwindcss@3.4.9):
     resolution: {integrity: sha512-ADGcJ8dX21dVVHIwTRgzrcunY6YY9uSlAHHGVKvkA+vLc5qLwEszvKts40lx7z0qc4clpjclwLeK5rVCV2P/uw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -667,7 +667,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.6
+      tailwindcss: 3.4.9
     dev: true
 
   /@types/cookie@0.6.0:
@@ -1532,8 +1532,8 @@ packages:
     resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
     dev: true
 
-  /foreground-child@3.2.1:
-    resolution: {integrity: sha512-PXUUyLqrR2XCWICfv6ukppP96sdFwWbNEnfEMt7jNsISjMsvaLNinAHNDYyvkyU+SZG2BTSbT5NjG+vZslfGTA==}
+  /foreground-child@3.3.0:
+    resolution: {integrity: sha512-Ld2g8rrAyMYFXBhEqMz8ZAHBi4J4uS1i/CxGMDnjyFWddMXLVcDp051DZfu+t7+ab7Wv6SMqpWmyFIj5UbfFvg==}
     engines: {node: '>=14'}
     dependencies:
       cross-spawn: 7.0.3
@@ -1595,7 +1595,7 @@ packages:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
     dependencies:
-      foreground-child: 3.2.1
+      foreground-child: 3.3.0
       jackspeak: 3.4.3
       minimatch: 9.0.5
       minipass: 7.1.2
@@ -2193,7 +2193,7 @@ packages:
     dependencies:
       lilconfig: 3.1.2
       postcss: 8.4.40
-      yaml: 2.4.5
+      yaml: 2.5.0
     dev: true
 
   /postcss-load-config@6.0.1(postcss@8.4.40):
@@ -2706,8 +2706,8 @@ packages:
       periscopic: 3.1.0
     dev: true
 
-  /tailwindcss@3.4.6:
-    resolution: {integrity: sha512-1uRHzPB+Vzu57ocybfZ4jh5Q3SdlH7XW23J5sQoM9LhE9eIOlzxer/3XPSsycvih3rboRsvt0QCmzSrqyOYUIA==}
+  /tailwindcss@3.4.9:
+    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3017,8 +3017,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml@2.4.5:
-    resolution: {integrity: sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==}
+  /yaml@2.5.0:
+    resolution: {integrity: sha512-2wWLbGbYDiSqqIKoPjar3MPgB94ErzCtrNE1FdqGuaO0pi2JGjmE8aW8TDZwzU7vuxcGRdL/4gPQwQ7hD5AMSw==}
     engines: {node: '>= 14'}
     hasBin: true
     dev: true
