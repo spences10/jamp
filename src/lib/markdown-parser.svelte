@@ -2,6 +2,12 @@
 	import hljs from 'highlight.js';
 	import 'highlight.js/styles/github-dark.css';
 	import { marked } from 'marked';
+	import {
+		CopyIcon,
+		FullscreenEnterIcon,
+		FullscreenExitIcon,
+		CheckmarkIcon,
+	} from '$lib/icons';
 
 	interface Props {
 		markdownContent?: string;
@@ -74,20 +80,7 @@
 							aria-label="Copy markdown to clipboard"
 							title="Copy to clipboard"
 						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="h-4 w-4"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
-								/>
-							</svg>
+							<CopyIcon class="h-4 w-4" />
 						</button>
 						<button
 							onclick={toggle_fullscreen}
@@ -100,41 +93,9 @@
 								: 'Enter fullscreen'}
 						>
 							{#if is_fullscreen}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="h-4 w-4"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M9 9h6v6H9z"
-									/>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M5 20h4v-4H5v4zM15 20h4v-4h-4v4zM5 10h4V6H5v4zM15 10h4V6h-4v4z"
-									/>
-								</svg>
+								<FullscreenExitIcon class="h-4 w-4" />
 							{:else}
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="h-4 w-4"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M4 8V4m0 0h4M4 4l5 5m11-5h-4m4 0v4m0-4l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
-									/>
-								</svg>
+								<FullscreenEnterIcon class="h-4 w-4" />
 							{/if}
 						</button>
 					</div>
@@ -168,19 +129,7 @@
 {#if show_copied_toast}
 	<div class="toast toast-end">
 		<div class="alert alert-success shadow-lg">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="h-6 w-6 stroke-current"
-				fill="none"
-				viewBox="0 0 24 24"
-			>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M5 13l4 4L19 7"
-				/>
-			</svg>
+			<CheckmarkIcon class="h-6 w-6 stroke-current" />
 			<span>Copied to clipboard!</span>
 		</div>
 	</div>
