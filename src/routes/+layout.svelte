@@ -30,10 +30,25 @@
 	}
 </script>
 
-<div class="flex min-h-screen flex-col" data-theme={theme}>
-	<Header {theme} {toggle_theme} />
-	<main class="flex-grow">
-		{@render children?.()}
-	</main>
-	<Footer />
+<div
+	class="min-h-screen bg-gradient-to-br from-base-100 to-base-300 transition-colors duration-300"
+	data-theme={theme}
+>
+	<div class="bg-grid-pattern flex min-h-screen flex-col">
+		<Header {theme} {toggle_theme} />
+		<main class="flex-grow">
+			{@render children?.()}
+		</main>
+		<Footer />
+	</div>
 </div>
+
+<style>
+	.bg-grid-pattern {
+		background-image: radial-gradient(
+			rgba(128, 128, 128, 0.1) 1px,
+			transparent 1px
+		);
+		background-size: 24px 24px;
+	}
+</style>
