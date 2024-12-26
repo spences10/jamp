@@ -15,10 +15,18 @@
 				href="https://ss10.dev/bluesky"
 				aria-label="Follow on Bluesky"
 			>
-				<BlueskyIcon height="24px" width="24px" />
+				<BlueskyIcon
+					height="24px"
+					width="24px"
+					class_names="fill-current"
+				/>
 			</a>
 			<a href="https://ss10.dev/yt" aria-label="Subscribe on YouTube">
-				<YoutubeIcon height="24px" width="24px" class_names="fill-current" />
+				<YoutubeIcon
+					height="24px"
+					width="24px"
+					class_names="fill-current"
+				/>
 			</a>
 		</div>
 	</div>

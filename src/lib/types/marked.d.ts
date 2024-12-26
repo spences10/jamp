@@ -1,7 +1,7 @@
-import { marked } from 'marked'
+import { marked } from 'marked';
 
 declare module 'marked' {
 	interface MarkedOptions {
-		highlight?: (code: string, lang: string) => string
+		highlight?: (code: string, lang: string) => string;
 	}
 }

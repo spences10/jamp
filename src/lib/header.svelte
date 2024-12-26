@@ -38,7 +38,11 @@
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<button class="btn btn-ghost" onclick={toggle_theme} aria-label="Toggle theme">
+		<button
+			class="btn btn-ghost"
+			onclick={toggle_theme}
+			aria-label="Toggle theme"
+		>
 			{#if theme === 'dark'}
 				<SunIcon height="20px" width="20px" />
 			{:else}
