@@ -23,6 +23,12 @@ devDependencies:
   '@tailwindcss/typography':
     specifier: ^0.5.15
     version: 0.5.15(tailwindcss@3.4.17)
+  '@types/highlight.js':
+    specifier: ^10.1.0
+    version: 10.1.0
+  '@types/marked':
+    specifier: ^6.0.0
+    version: 6.0.0
   autoprefixer:
     specifier: ^10.4.20
     version: 10.4.20(postcss@8.4.49)
@@ -41,6 +47,12 @@ devDependencies:
   globals:
     specifier: ^15.0.0
     version: 15.14.0
+  highlight.js:
+    specifier: ^11.11.1
+    version: 11.11.1
+  marked:
+    specifier: ^15.0.4
+    version: 15.0.4
   prettier:
     specifier: ^3.3.2
     version: 3.4.2
@@ -59,6 +71,9 @@ devDependencies:
   tailwindcss:
     specifier: ^3.4.9
     version: 3.4.17
+  theme-change:
+    specifier: ^2.5.0
+    version: 2.5.0
   typescript:
     specifier: ^5.0.0
     version: 5.7.2
@@ -726,8 +741,22 @@ packages:
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
     dev: true
 
+  /@types/highlight.js@10.1.0:
+    resolution: {integrity: sha512-77hF2dGBsOgnvZll1vymYiNUtqJ8cJfXPD6GG/2M0aLRc29PkvB7Au6sIDjIEFcSICBhCh2+Pyq6WSRS7LUm6A==}
+    deprecated: This is a stub types definition. highlight.js provides its own type definitions, so you do not need this installed.
+    dependencies:
+      highlight.js: 11.11.1
+    dev: true
+
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
+    dev: true
+
+  /@types/marked@6.0.0:
+    resolution: {integrity: sha512-jmjpa4BwUsmhxcfsgUit/7A9KbrC48Q0q8KvnY107ogcjGgTFDlIL3RpihNpx2Mu1hM4mdFQjoVc4O6JoGKHsA==}
+    deprecated: This is a stub types definition. marked provides its own type definitions, so you do not need this installed.
+    dependencies:
+      marked: 15.0.4
     dev: true
 
   /@typescript-eslint/eslint-plugin@8.18.2(@typescript-eslint/parser@8.18.2)(eslint@9.17.0)(typescript@5.7.2):
@@ -1635,6 +1664,11 @@ packages:
       function-bind: 1.1.2
     dev: true
 
+  /highlight.js@11.11.1:
+    resolution: {integrity: sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w==}
+    engines: {node: '>=12.0.0'}
+    dev: true
+
   /ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
@@ -1807,6 +1841,12 @@ packages:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
+    dev: true
+
+  /marked@15.0.4:
+    resolution: {integrity: sha512-TCHvDqmb3ZJ4PWG7VEGVgtefA5/euFmsIhxtD0XsBxI39gUSKL81mIRFdt0AiNQozUahd4ke98ZdirExd/vSEw==}
+    engines: {node: '>= 18'}
+    hasBin: true
     dev: true
 
   /merge2@1.4.1:
@@ -2482,6 +2522,10 @@ packages:
       sucrase: 3.35.0
     transitivePeerDependencies:
       - ts-node
+    dev: true
+
+  /theme-change@2.5.0:
+    resolution: {integrity: sha512-B/UdsgdHAGhSKHTAQnxg/etN0RaMDpehuJmZIjLMDVJ6DGIliRHGD6pODi1CXLQAN9GV0GSyB3G6yCuK05PkPQ==}
     dev: true
 
   /thenify-all@1.6.0:

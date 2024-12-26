@@ -1,5 +1,5 @@
-<script>
-	import MarkdownParser from '$lib/markdown-parser.svelte'
+<script lang="ts">
+	import MarkdownParser from '$lib/markdown-parser.svelte';
 </script>
 
 <MarkdownParser />

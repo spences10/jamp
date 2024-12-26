@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { marked } from 'marked'
-	import hljs from 'highlight.js'
-	import 'highlight.js/styles/github-dark.css'
+	import hljs from 'highlight.js';
+	import 'highlight.js/styles/github-dark.css';
+	import { marked } from 'marked';
 
 	interface Props {
-		markdownContent?: string
-		rows?: number
+		markdownContent?: string;
+		rows?: number;
 	}
 
 	let {
@@ -13,9 +13,9 @@
 			`# Hello World\n\nWrite markdown here\n\n\`\`\`javascript\n// Code example\nconst greeting = 'Hello World';\nconsole.log(greeting);\n\`\`\``,
 		),
 		rows = 10,
-	}: Props = $props()
+	}: Props = $props();
 
-	let show_copied_toast = $state(false)
+	let show_copied_toast = $state(false);
 
 	// Configure marked with GitHub-flavoured markdown and syntax highlighting
 	marked.setOptions({
@@ -24,37 +24,37 @@
 		highlight: function (code: string, lang: string) {
 			if (lang && hljs.getLanguage(lang)) {
 				try {
-					return hljs.highlight(code, { language: lang }).value
+					return hljs.highlight(code, { language: lang }).value;
 				} catch (err) {
-					console.error('Highlight.js error:', err)
+					console.error('Highlight.js error:', err);
 				}
 			}
-			return code
+			return code;
 		},
-	})
+	});
 
-	let markdown = $derived(marked(markdownContent))
-	let is_fullscreen = $state(false)
+	let markdown = $derived(marked(markdownContent));
+	let is_fullscreen = $state(false);
 
 	function copy_to_clipboard(): void {
 		navigator.clipboard
 			.writeText(markdownContent)
 			.then(() => {
-				show_copied_toast = true
+				show_copied_toast = true;
 				setTimeout(() => {
-					show_copied_toast = false
-				}, 2000)
+					show_copied_toast = false;
+				}, 2000);
 			})
-			.catch((err) => console.error('Failed to copy:', err))
+			.catch((err) => console.error('Failed to copy:', err));
 	}
 
 	function toggle_fullscreen(): void {
-		is_fullscreen = !is_fullscreen
+		is_fullscreen = !is_fullscreen;
 	}
 </script>
 
 <div
-	class="mx-auto mb-10 grid p-10 gap-4 md:gap-10"
+	class="mx-auto mb-10 grid gap-4 p-10 md:gap-10"
 	class:md:grid-cols-2={!is_fullscreen}
 	class:md:grid-cols-1={is_fullscreen}
 >
@@ -131,14 +131,14 @@
 		<textarea
 			{rows}
 			bind:value={markdownContent}
-			class="border rounded-box h-full bg-base-200 shadow-2xl text-xl w-full p-2 resize-none"
+			class="h-full w-full resize-none rounded-box border bg-base-200 p-2 text-xl shadow-2xl"
 			aria-label="Markdown editor"
 			placeholder="Write your markdown here..."
 		></textarea>
 	</div>
 
 	<div
-		class="bg-secondary text-secondary-content shadow-2xl rounded-box w-full p-2 prose prose-invert max-w-none overflow-x-auto"
+		class="prose prose-invert w-full max-w-none overflow-x-auto rounded-box bg-secondary p-2 text-secondary-content shadow-2xl"
 		aria-label="Markdown preview"
 	>
 		{@html markdown}

@@ -1,5 +1,14 @@
-<script>
-	import ThemeSelect from './theme-select.svelte'
+<script lang="ts">
+	import MenuIcon from '$lib/icons/menu-icon.svelte';
+	import SunIcon from '$lib/icons/sun-icon.svelte';
+	import MoonIcon from '$lib/icons/moon-icon.svelte';
+
+	interface Props {
+		theme: string;
+		toggle_theme: () => void;
+	}
+
+	let { theme, toggle_theme }: Props = $props();
 </script>
 
 <div class="navbar bg-base-100">
@@ -8,30 +17,19 @@
 			<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
 			<!-- svelte-ignore a11y_label_has_associated_control -->
 			<label tabindex="0" class="btn btn-ghost lg:hidden">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor"
-					><path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M4 6h16M4 12h8m-8 6h16"
-					/></svg
-				>
+				<MenuIcon height="20px" width="20px" />
+				<span class="sr-only">Open menu</span>
 			</label>
 			<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
 			<ul
 				tabindex="0"
-				class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+				class="menu dropdown-content menu-sm mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
 			>
 				<li><a href="/">Home</a></li>
 				<li><a href="/about">About</a></li>
 			</ul>
 		</div>
-		<a href="/" class="btn btn-ghost normal-case text-xl">JAMP</a>
+		<a href="/" class="btn btn-ghost text-xl normal-case">JAMP</a>
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
@@ -40,6 +38,12 @@
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<ThemeSelect />
+		<button class="btn btn-ghost" onclick={toggle_theme} aria-label="Toggle theme">
+			{#if theme === 'dark'}
+				<SunIcon height="20px" width="20px" />
+			{:else}
+				<MoonIcon height="20px" width="20px" />
+			{/if}
+		</button>
 	</div>
 </div>
