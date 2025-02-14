@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { Footer, Header } from '$lib';
-	import { onMount } from 'svelte';
 	import '../app.css';
 
 	interface Props {
@@ -10,7 +9,7 @@
 	let { children }: Props = $props();
 	let theme = $state<'light' | 'dark'>('light');
 
-	onMount(() => {
+	$effect(() => {
 		// Check system preference
 		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 			theme = 'dark';
@@ -31,7 +30,7 @@
 </script>
 
 <div
-	class="min-h-screen bg-gradient-to-br from-base-100 to-base-300 transition-colors duration-300"
+	class="from-base-100 to-base-300 min-h-screen bg-gradient-to-br transition-colors duration-300"
 	data-theme={theme}
 >
 	<div class="bg-grid-pattern flex min-h-screen flex-col">

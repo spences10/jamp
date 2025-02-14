@@ -3,7 +3,7 @@
 </script>
 
 <footer
-	class="flex justify-center gap-4 bg-base-200/30 py-6 backdrop-blur-sm"
+	class="bg-base-200/30 flex justify-center gap-4 py-6 backdrop-blur-sm"
 >
 	<a
 		href="https://ss10.dev/bluesky"

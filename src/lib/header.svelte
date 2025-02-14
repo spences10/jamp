@@ -19,7 +19,7 @@
 				<span class="sr-only">Open menu</span>
 			</summary>
 			<ul
-				class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-200 p-2 shadow-lg"
+				class="menu dropdown-content menu-sm rounded-box bg-base-200 z-[1] mt-3 w-52 p-2 shadow-lg"
 			>
 				<li><a href="/" class="hover:bg-base-300">Home</a></li>
 				<li><a href="/about" class="hover:bg-base-300">About</a></li>
@@ -27,7 +27,7 @@
 		</details>
 		<a
 			href="/"
-			class="btn btn-ghost text-xl font-bold normal-case tracking-tight hover:bg-base-200"
+			class="btn btn-ghost hover:bg-base-200 text-xl font-bold tracking-tight normal-case"
 		>
 			<span class="text-primary">J</span>AMP
 		</a>
@@ -35,17 +35,17 @@
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal gap-2 px-1">
 			<li>
-				<a href="/" class="rounded-lg hover:bg-base-200">Home</a>
+				<a href="/" class="hover:bg-base-200 rounded-lg">Home</a>
 			</li>
 			<li>
-				<a href="/about" class="rounded-lg hover:bg-base-200">About</a
+				<a href="/about" class="hover:bg-base-200 rounded-lg">About</a
 				>
 			</li>
 		</ul>
 	</div>
 	<div class="navbar-end">
 		<button
-			class="btn btn-ghost rounded-lg hover:bg-base-200"
+			class="btn btn-ghost hover:bg-base-200 rounded-lg"
 			onclick={toggle_theme}
 			aria-label="Toggle theme"
 		>

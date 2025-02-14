@@ -103,7 +103,7 @@
 				<textarea
 					{rows}
 					bind:value={markdownContent}
-					class="textarea textarea-bordered h-[500px] w-full resize-none bg-base-100 font-mono text-lg leading-relaxed"
+					class="textarea textarea-bordered bg-base-100 h-[500px] w-full resize-none font-mono text-lg leading-relaxed"
 					aria-label="Markdown editor"
 					placeholder="Write your markdown here..."
 				></textarea>
@@ -112,11 +112,11 @@
 
 		<div class="card bg-base-200 shadow-xl">
 			<div class="card-body p-4">
-				<h2 class="card-title mb-4 text-base-content opacity-70">
+				<h2 class="card-title text-base-content mb-4 opacity-70">
 					Preview
 				</h2>
 				<div
-					class="prose prose-sm w-full max-w-none overflow-x-auto rounded-lg bg-base-100 p-6 md:prose-base lg:prose-lg"
+					class="prose prose-sm bg-base-100 md:prose-base lg:prose-lg w-full max-w-none overflow-x-auto rounded-lg p-6"
 					aria-label="Markdown preview"
 				>
 					{@html markdown}
