@@ -67,7 +67,7 @@ importers:
         version: 26.1.0
       marked:
         specifier: ^16.2.1
-        version: 16.2.1
+        version: 16.3.0
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -1340,8 +1340,8 @@ packages:
   magic-string@0.30.18:
     resolution: {integrity: sha512-yi8swmWbO17qHhwIBNeeZxTceJMeBvWJaId6dyvTSOwTipqeHhMhOrz6513r1sOKnpvQ7zkhlG8tPrpilwTxHQ==}
 
-  marked@16.2.1:
-    resolution: {integrity: sha512-r3UrXED9lMlHF97jJByry90cwrZBBvZmjG1L68oYfuPMW+uDTnuMbyJDymCWwbTE+f+3LhpNDKfpR3a3saFyjA==}
+  marked@16.3.0:
+    resolution: {integrity: sha512-K3UxuKu6l6bmA5FUwYho8CfJBlsUWAooKtdGgMcERSpF7gcBUrCGsLH7wDaaNOzwq18JzSUDyoEb/YsrqMac3w==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -2401,7 +2401,7 @@ snapshots:
 
   '@types/marked@6.0.0':
     dependencies:
-      marked: 16.2.1
+      marked: 16.3.0
 
   '@typescript-eslint/eslint-plugin@8.43.0(@typescript-eslint/parser@8.43.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2)':
     dependencies:
@@ -3065,7 +3065,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  marked@16.2.1: {}
+  marked@16.3.0: {}
 
   merge2@1.4.1: {}
 
