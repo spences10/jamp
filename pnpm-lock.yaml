@@ -45,8 +45,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       daisyui:
-        specifier: 5.2.2
-        version: 5.2.2
+        specifier: 5.5.3
+        version: 5.5.3
       eslint:
         specifier: ^9.37.0
         version: 9.37.0(jiti@2.6.1)
@@ -920,8 +920,8 @@ packages:
     resolution: {integrity: sha512-g5PC9Aiph9eiczFpcgUhd9S4UUO3F+LHGRIi5NUMZ+4xtoIYbHNZwZnWA2JsFGe8OU8nl4WyaEFiZuGuxlutJQ==}
     engines: {node: '>=20'}
 
-  daisyui@5.2.2:
-    resolution: {integrity: sha512-/ttJDqDgtPcHJlD1ihYMhRIwCQQM1UxuwOZw8xbABdvBkT/vmlmfrfCzkFMuFO+CNNKE734S4TFQ/tDEIbBHNA==}
+  daisyui@5.5.3:
+    resolution: {integrity: sha512-xcDZlujfSHu3AbwXY1mpl25YXDLyzonsBX1YtiIyhvWGTnVIsX4krD5A7mm6RyiwDRlmKbPvMUPPxivQE4Nsvg==}
 
   data-urls@6.0.0:
     resolution: {integrity: sha512-BnBS08aLUM+DKamupXs3w2tJJoqU+AkaE/+6vQxi/G/DPmIZFJJp9Dkb1kM03AZx8ADehDUZgsNxju3mPXZYIA==}
@@ -2676,7 +2676,7 @@ snapshots:
     transitivePeerDependencies:
       - postcss
 
-  daisyui@5.2.2: {}
+  daisyui@5.5.3: {}
 
   data-urls@6.0.0:
     dependencies:
