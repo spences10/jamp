@@ -29,7 +29,7 @@
 		"@testing-library/svelte": "^5.2.8",
 		"@types/highlight.js": "^10.1.0",
 		"@types/marked": "^6.0.0",
-		"daisyui": "5.5.3",
+		"daisyui": "5.5.5",
 		"eslint": "^9.37.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.12.4",
