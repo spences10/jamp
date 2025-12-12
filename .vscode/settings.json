@@ -1,5 +1,7 @@
 {
 	"git.enableSmartCommit": true,
 	"git.postCommitCommand": "sync",
-	"cSpell.words": ["daisyui"]
+	"files.associations": {
+		"*.css": "tailwindcss"
+	}
 }

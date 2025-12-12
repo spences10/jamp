@@ -1,9 +1,0 @@
-export { default as BlueskyIcon } from './bluesky-icon.svelte';
-export { default as CheckmarkIcon } from './checkmark-icon.svelte';
-export { default as CopyIcon } from './copy-icon.svelte';
-export { default as FullscreenEnterIcon } from './fullscreen-enter-icon.svelte';
-export { default as FullscreenExitIcon } from './fullscreen-exit-icon.svelte';
-export { default as MenuIcon } from './menu-icon.svelte';
-export { default as MoonIcon } from './moon-icon.svelte';
-export { default as SunIcon } from './sun-icon.svelte';
-export { default as YoutubeIcon } from './youtube-icon.svelte';
